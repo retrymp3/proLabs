@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Xleaks</title>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self';">
+    </head>
+    <body>
+        <form action="/login" method="post">
+            <label for="username">Username</label>
+            <input type="text" name="user" id="username" /><br><br>
+            <label for="password">Password</label>
+            <input type="password" name="pass" id="password" /><br><br>
+            <span id="errors" style="color:red;">{{ message }}</span><br>
+            <input type="submit" id="login" value="Login" />
+    </body>
+</html>

@@ -1,0 +1,18 @@
+[2023-05-10 10:55:15] INFO  WEBrick 1.6.1
+[2023-05-10 10:55:15] INFO  ruby 2.7.8 (2023-03-30) [x86_64-linux]
+== Sinatra (v3.0.6) has taken the stage on 4567 for development with backup from WEBrick
+[2023-05-10 10:55:15] INFO  WEBrick::HTTPServer#start: pid=1 port=4567
+172.17.0.1 - - [10/May/2023:10:55:22 +0000] "GET / HTTP/1.1" 200 564 0.0206
+172.17.0.1 - - [10/May/2023:10:55:22 UTC] "GET / HTTP/1.1" 200 564
+http://127.0.0.1:10000/ -> /
+172.17.0.1 - - [10/May/2023:10:55:22 +0000] "GET /favicon.ico HTTP/1.1" 404 470 0.0014
+172.17.0.1 - - [10/May/2023:10:55:22 UTC] "GET /favicon.ico HTTP/1.1" 404 470
+http://127.0.0.1:10777/ -> /favicon.ico
+172.17.0.1 - - [10/May/2023:10:55:33 +0000] "POST /submit HTTP/1.1" 200 217 0.0038
+172.17.0.1 - - [10/May/2023:10:55:33 UTC] "POST /submit HTTP/1.1" 200 217
+http://127.0.0.1:10777/ -> /submit
+172.17.0.1 - - [10/May/2023:10:55:40 +0000] "GET / HTTP/1.1" 200 564 0.0033
+172.17.0.1 - - [10/May/2023:10:55:40 UTC] "GET / HTTP/1.1" 200 564
+http://127.0.0.1:10000/ -> /
+sh: 1: reading: not found
+rm: cannot remove '/tmp/f': No such file or directory

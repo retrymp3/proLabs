@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Details</title>
+</head>
+<body>
+  <h1>Update Your User Details</h1>
+  <p>Enter your YAML code below:</p>
+  <p>Sample YAML code: <pre>---
+user: john
+details:
+  email: john_new@example.com
+  phone: 555-555-4321</pre></p>
+  <form method="post" action="/submit">
+    <textarea name="code" rows="10" cols="80"></textarea><br><br>
+    <input type="submit" value="Submit">
+    <!-- Note from admin: I just implemented the cutting edge, YAML.load function to parse yaml effortlessly. Do test it out. -->
+  </form>
+</body>
+</html>

@@ -1,0 +1,13 @@
+[2023-06-03 16:22:22] INFO  WEBrick 1.6.1
+[2023-06-03 16:22:22] INFO  ruby 2.7.8 (2023-03-30) [x86_64-linux]
+== Sinatra (v3.0.6) has taken the stage on 4567 for development with backup from WEBrick
+[2023-06-03 16:22:22] INFO  WEBrick::HTTPServer#start: pid=1 port=4567
+172.17.0.1 - - [03/Jun/2023:16:22:23 +0000] "GET / HTTP/1.1" 200 564 0.0186
+172.17.0.1 - - [03/Jun/2023:16:22:23 UTC] "GET / HTTP/1.1" 200 564
+http://127.0.0.1:10000/ -> /
+172.17.0.1 - - [03/Jun/2023:16:22:23 +0000] "GET /favicon.ico HTTP/1.1" 404 470 0.0014
+172.17.0.1 - - [03/Jun/2023:16:22:23 UTC] "GET /favicon.ico HTTP/1.1" 404 470
+http://127.0.0.1:10752/ -> /favicon.ico
+172.17.0.1 - - [03/Jun/2023:16:22:29 +0000] "GET / HTTP/1.1" 200 564 0.0029
+172.17.0.1 - - [03/Jun/2023:16:22:29 UTC] "GET / HTTP/1.1" 200 564
+http://127.0.0.1:10000/ -> /

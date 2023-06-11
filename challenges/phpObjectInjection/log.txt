@@ -1,0 +1,4 @@
+### Dev logs ###
+
+Added new code to process serialized data using hooks and a class I named 'Serial', which I think is pretty cool haha.
+Also added a secretFunc() be careful while calling it.

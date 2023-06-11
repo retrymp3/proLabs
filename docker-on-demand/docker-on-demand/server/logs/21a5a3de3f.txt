@@ -1,0 +1,4 @@
+[2023-06-06 10:18:39] INFO  WEBrick 1.6.1
+[2023-06-06 10:18:39] INFO  ruby 2.7.8 (2023-03-30) [x86_64-linux]
+== Sinatra (v3.0.6) has taken the stage on 4567 for development with backup from WEBrick
+[2023-06-06 10:18:39] INFO  WEBrick::HTTPServer#start: pid=1 port=4567

@@ -1,0 +1,49 @@
+version: 1.0
+
+images:
+  -
+    image_name: phpobjecti
+    local_port: 80
+    flag: flag{0bJ3cT_inJ3cT1on_f04_Th3_WiN}
+    point: 500
+  -
+    image_name: yaml-vuln
+    local_port: 4567
+    flag: flag{u_cl1ck3d_0n_th3_wr0ng_Link}
+    point: 500
+  -
+    image_name: projectleaks
+    local_port: 5000
+    flag: flag{uleakedmysecrets}
+    point: 500
+  -
+    image_name: ssti-vuln
+    local_port: 9000
+    flag: flag{Y0u_g0T_Th3_fl4g}
+    point: 500
+  -
+    image_name: xxe
+    local_port: 8000
+    flag: flag{S0_you_kn0w_xx3}
+    point: 500
+  -
+    image_name: idor
+    local_port: 3000
+    flag: flag{y0u_kn0w_about_id0r}
+    point: 500
+  -
+    image_name: lfi
+    local_port: 80
+    flag: flag{you_exploited_the_lfi}
+    point: 500
+
+app_conf:
+  port_start: 10001
+  port_end: 11000
+  app_port: 5000
+  host: "http://127.0.0.1"
+  debug: False
+
+credentials:
+  admin: retrymp3
+  user: user

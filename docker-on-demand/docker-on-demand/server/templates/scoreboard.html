@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1 class="title">{% block title %} Users {% endblock %}</h1>
+<div class="content">
+    {% for chall in challs %}
+        <div class="Challs">
+            <p><b>#{{ chall.chall_id }}</b></p>
+            <b>
+                <p class="challname">{{ chall.chall_name }}</p>
+            </b>
+            <p>{{ chall.chall_point }}</p>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}

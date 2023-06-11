@@ -1,0 +1,1 @@
+flag{ur_command_is_my_wish}
