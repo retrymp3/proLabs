@@ -11,5 +11,4 @@ Simulating advanced web security attacks
 
 # Credits
 @yadhukrishnam : https://github.com/yadhukrishnam/docker-on-demand.
-
-@Skad0sh added some changes in the docker on demand API and added 2 web challenges to the software.
+@Skad0sh : Added some changes in the docker on demand API and added 2 web challenges to the software.
