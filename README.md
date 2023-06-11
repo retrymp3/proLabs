@@ -8,3 +8,7 @@ Simulating advanced web security attacks
     - xxe (server)
     - PHP Iconv
     - Prototype pollution in python
+
+# Credits
+@yadhukrishnam : https://github.com/yadhukrishnam/docker-on-demand
+@Skad0sh added some changes in the docker on demand API and added 2 web challenges to the software.
