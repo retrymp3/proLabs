@@ -10,5 +10,5 @@ Simulating advanced web security attacks
     - Prototype pollution in python
 
 # Credits
-@yadhukrishnam : https://github.com/yadhukrishnam/docker-on-demand.
-@Skad0sh : Added some changes in the docker on demand API and added 2 web challenges to the software.
+@yadhukrishnam
+@Skad0sh
