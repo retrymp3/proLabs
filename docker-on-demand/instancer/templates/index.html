@@ -55,16 +55,15 @@
         <h1>{{ chall_name }}</h1>
         <form id="captcha_form">
           <label>{{ question }} </label><br />
-          <input type="text" placeholder="solution" name="answer" />
+          <!-- <input type="text" placeholder="solution" name="answer" /> -->
         </form>
         <button onclick="deploy_image()" class="btn btn-light btn-rounded mt-2">
           Launch Instance
         </button>
-        <button
-          href="../templates/challenges.html"
-          class="btn btn-light btn-rounded mt-2"
-        >
-          Go Back
+          <a href="{{url_for('challenges')}}">
+            <button type="button" class="btn btn-light btn-rounded">Go Back</button>
+          </a>
+          
         </button>
         <p style="color: red" id="message_field"></p>
         <p id="remaining_time"></p>

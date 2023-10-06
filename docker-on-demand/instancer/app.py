@@ -87,10 +87,10 @@ def flags():
 @app.route("/challenge/<id>") # get all images 
 def index(id):
     try:
-        x,target,out = PoW()
-        session["target"] = target
-        session["x"] = x[:13].hex()
-        return render_template("index.html",chall_name=CHALL_NAMES[int(id)-1]["image_name"],question=out,pub_key = pub_key)
+        # x,target,out = PoW()
+        # session["target"] = target
+        # session["x"] = x[:13].hex()
+        return render_template("index.html",chall_name=CHALL_NAMES[int(id)-1]["image_name"]) #,question=out,pub_key = pub_key
     except Exception as e:
         return str(e)
     
@@ -99,15 +99,15 @@ def index(id):
 def deploy(id): 
     try:
         print(request)
-        if(request.form['answer'] == None): # check if answer is present
-            raise  
-        answer = request.form['answer']
-        print(answer,session['target'],flush=True)
-        if(hashlib.md5(bytes.fromhex(session['x']+answer)).hexdigest() == session["target"]):  # check if answer is correct
+        # if(request.form['answer'] == None): # check if answer is present
+        #     raise  
+        # answer = request.form['answer']
+        # print(answer,session['target'],flush=True)
+        if(1):  # check if answer is correct
             r = requests.post(API_URL+"/api/deploy",json={"image_id":CHALL_NAMES[int(id)-1]["image_name"],"user_id":"admin"}) # deploy container 
             print(r.text)
             print(json.loads(r.text)['port'],flush=True)
-            session['target'] = "chavar"
+            # session['target'] = "chavar"
             return {"id":id,"port":json.loads(r.text)['port'],"timeout":json.loads(r.text)['timeout'],"status":"SUCCESS"},200
         return {"id":id,"status":"FAIL"},400
     except Exception as e:
