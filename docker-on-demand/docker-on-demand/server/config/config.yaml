@@ -6,7 +6,7 @@ images:
     local_port: 80
     timeout: 600
   -
-    image_name: yaml-vuln
+    image_name: ruby_deserial
     local_port: 4567
     timeout: 600
   -

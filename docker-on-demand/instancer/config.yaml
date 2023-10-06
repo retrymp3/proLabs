@@ -7,7 +7,7 @@ images:
     flag: flag{0bJ3cT_inJ3cT1on_f04_Th3_WiN}
     point: 500
   -
-    image_name: yaml-vuln
+    image_name: ruby_deserial
     local_port: 4567
     flag: flag{u_cl1ck3d_0n_th3_wr0ng_Link}
     point: 500
