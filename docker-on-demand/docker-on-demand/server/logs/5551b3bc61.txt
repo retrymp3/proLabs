@@ -1,0 +1,17 @@
+ * Serving Flask app 'app.py'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.17.0.2:8000
+[33mPress CTRL+C to quit[0m
+10.1.3.243 - - [06/Oct/2023 04:56:17] "GET / HTTP/1.1" 200 -
+10.1.3.243 - - [06/Oct/2023 04:56:17] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+10.1.3.243 - - [06/Oct/2023 04:56:17] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+10.1.3.243 - - [06/Oct/2023 04:56:17] "GET /static/js/jquery-2.2.4.min.js HTTP/1.1" 200 -
+10.1.3.243 - - [06/Oct/2023 04:56:17] "GET /static/css/font.css HTTP/1.1" 200 -
+10.1.3.243 - - [06/Oct/2023 04:56:17] "GET /static/css/material-bootstrap-wizard.css HTTP/1.1" 200 -
+10.1.3.243 - - [06/Oct/2023 04:56:17] "GET /static/js/jquery.bootstrap.js HTTP/1.1" 200 -
+10.1.3.243 - - [06/Oct/2023 04:56:17] "GET /static/js/material-bootstrap-wizard.js HTTP/1.1" 200 -
+10.1.3.243 - - [06/Oct/2023 04:56:17] "GET /static/js/jquery.validate.min.js HTTP/1.1" 200 -
+10.1.3.243 - - [06/Oct/2023 04:56:17] "GET /static/img/favicon.png HTTP/1.1" 200 -

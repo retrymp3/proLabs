@@ -21,6 +21,10 @@ images:
     image_name: xxe
     local_port: 8000
     timeout: 600
+  -
+    image_name: lfi
+    local_port: 80
+    timeout: 60
 
 app_conf:
   port_start: 10001
