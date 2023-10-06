@@ -10,5 +10,5 @@ Simulating advanced web security attacks
     - Prototype pollution in python
 
 # Credits
-[@yadhukrishnam](https://github.com/yadhukrishnam)https://github.com/yadhukrishnam
-[@Skad0sh](https://github.com/Skad0sh)https://github.com/Skad0sh
+[@yadhukrishnam] (https://github.com/yadhukrishnam)https://github.com/yadhukrishnam
+[@Skad0sh] (https://github.com/Skad0sh)https://github.com/Skad0sh
